@@ -1,0 +1,18 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    background-color:#24a7e4;
+    padding: 12px 40px;
+}
+
+.navbar img{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar p{
+    font-size: 1.5em;
+    font-weight: 600;
+}
