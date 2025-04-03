@@ -1,0 +1,119 @@
+.image-list{
+    width: 60em;
+    margin: 40px auto 20px;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.image-box {
+    position: relative;
+    cursor: pointer;
+    width: 15em;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(128, 128, 128, .5); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+.image-box:hover{
+    /* display: block; */
+}
+.image-box #image{
+    margin-top: 10px;
+    width: 200px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+#image-text p{
+    margin: 2spx 0px;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+#edit-delete-btn{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#edit-delete-btn img{
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+}
+#edit-delete-btn img:hover{
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+
+/* fill screen view image code here */
+.image-viewer{
+    position:fixed;
+    top: 5em;
+    left: 17em;
+    width: 60em;
+    margin: 40px auto 20px;
+}
+.image-viewer img{
+    width: 64em;
+    height: 30em;
+}
+.image-viewer #close-image{
+    position: absolute;
+    top: -2em;
+    right: -5em;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.image-viewer #left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.image-viewer #right{
+    position: absolute;
+    top: 50%;
+    right: -3.1em;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.image-viewer #right:hover, .image-viewer #left:hover{
+    cursor: pointer;
+    background-color: rgb(0, 162, 255);
+    color:  white;
+}
+.image-viewer #close-image:hover{
+    cursor: pointer;
+    background-color: red;
+    color:  white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,89 +1,119 @@
-.image-form-container{
-    text-align: center;
+.image-form-container {
+  text-align: center;
 }
 
-.image-title{
+.image-title {
+  width: 60em;
+  margin: 40px auto 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-para {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+.image-para img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+.image-para p {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.image-title button {
+  font-size: 1.2em;
+  padding: 5px 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.image-title #add-image {
+  border-color: rgb(0, 162, 255);
+  color: rgb(0, 162, 255);
+}
+.image-title #cancel {
+  border-color: red;
+  color: red;
+}
+
+.image-search {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.image-search img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 5px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  cursor: pointer;
+}
+.image-search input {
+  font-size: 1.2em;
+  padding: 5px 10px;
+}
+
+/* Image form code here */
+.image-form {
+  width: 45em;
+  margin: 40px auto 20px;
+  padding: 20px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 15px;
+}
+
+.image-form h1 {
+  font-size: 2.3em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.image-form input {
+  display: block;
+  width: 95%;
+  font-size: 1.4em;
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  padding: 10px 15px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.image-form button {
+  padding: 5px 15px;
+  font-size: 1.5em;
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.image-form button:hover {
+  cursor: pointer;
+}
+.image-form #clear {
+  background-color: red;
+}
+.image-form #add, .image-form #update {
+  background-color: rgb(0, 162, 255);
+}
+/* .image-list{
     width: 60em;
     margin: 40px auto 20px;
     display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-}
-.image-title img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    padding: 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    cursor: pointer;
-}
-
-.image-title p{
-    font-size: 1.5em;
-    font-weight: 700;
-}
-.image-title p{
-    font-size: 2em;
-    font-weight: 700;
-}
-
-.image-title button{
-    font-size: 1.2em;
-    padding: 5px 10px;
-    font-weight: 600;
-    border-radius: 5px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-.image-title #add-image{
-    border-color: rgb(0, 162, 255);
-    color: rgb(0, 162, 255);
-}
-.image-title #cancel{
-    border-color: red;
-    color:red;
-}
-
-.image-form{
-    width: 45em;
-    margin: 40px auto 20px;
-    padding: 20px 20px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    background-color: rgba(128, 128, 128, .2);
-    border-radius: 15px;
-}
-
-.image-form h1{
-    font-size: 2.3em;
-    text-align: left;
-    margin-bottom: 20px;
-}
-.image-form input{
-    display: block;
-    width: 95%;
-    font-size: 1.4em;
-    border: none;
-    border: 1px solid rgba(128, 128, 128, .5);
-    padding: 10px 15px;
-    border-radius: 25px;
-    margin-bottom: 20px;
-}
-
-.image-form button{
-    padding: 5px 15px;
-    font-size: 1.5em;
-    border: none;
-    border: 1px solid rgba(128, 128, 128, .5);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    margin: 10px;
-    border-radius: 10px;
-    color: white;
-}
-.image-form button:hover{
-    cursor: pointer;
-}
-.image-form #clear{
-    background-color: red;
-}
-.image-form #add{
-    background-color: rgb(0, 162, 255);
-}
+} */
