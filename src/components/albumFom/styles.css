@@ -79,3 +79,9 @@
     gap: 1em;
     justify-content: space-evenly;
 }
+.spinner{
+    display: flex;
+    justify-Content: center;
+    align-Items: center;
+    height: 200px;
+  }

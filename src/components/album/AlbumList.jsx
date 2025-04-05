@@ -1,13 +1,13 @@
 import "./album.css";
 
-import React, { useEffect } from "react";
+import React from "react";
 
-const Album = (props) => {
+
+const AlbumList = (props) => {
   const { text, albumId, handleBackAndForward } = props;
 
   return (
     <>
-      {/* <div className="album-container"> */}
       <div
         className="album-box"
         onClick={() => handleBackAndForward(text, albumId)}
@@ -22,9 +22,8 @@ const Album = (props) => {
           <p>{text}</p>
         </div>
       </div>
-      {/* </div> */}
     </>
   );
 };
 
-export default Album;
+export default AlbumList;

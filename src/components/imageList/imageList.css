@@ -4,7 +4,7 @@
     display: flex;
     gap: 1em;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -36,22 +36,34 @@
     font-size: 1.4em;
     font-weight: 600;
 }
-#edit-delete-btn{
+#edit-delete-btn {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: -6px;
+    right: 8px;
+    display: none;
+    gap: 5px;
 }
+
+.image-box:hover #edit-delete-btn {
+    display: flex;
+}
+
 #edit-delete-btn img{
     width: 30px;
     height: 30px;
-    margin-right: 7px;
+    /* margin-right: 7px; */
+    transition: transform 0.2s;
 }
 #edit-delete-btn img:hover{
     cursor: pointer;
+    transform: scale(1.2);
 }
 .hide{
     display: none;
 }
+/*----------*/
+
+/*----------*/
 
 /* fill screen view image code here */
 .image-viewer{

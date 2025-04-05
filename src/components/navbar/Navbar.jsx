@@ -1,6 +1,7 @@
 
 import "./navbar.css"
 
+//Navbar Component
 const Navbar = () =>{
     return (
         <div className="navbar">
